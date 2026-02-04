@@ -12,7 +12,7 @@ void push(int data){
     stack[++top] = data;
 }
 
-int pop(){
+char pop(){
     if(top == -1){
         printf("Stack Underflow\n");
         return -1;
