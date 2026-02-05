@@ -8,7 +8,7 @@
 char operator_stack[MAX];
 int top_op = -1;
 
-char value_stack[MAX];
+int value_stack[MAX];
 int top_val = -1;
 
 void push_op(char op){
