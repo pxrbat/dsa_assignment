@@ -31,6 +31,7 @@ typedef struct{
 ```
 `items[MAX]` stores the node indices waiting to be processed. 
 The queue is empty when `front = -1`.
+
 **2. Stack - for DFS**
 The stack is also implemented using an integer array with a top pointer to keep track of the topmost element.
 ```c
@@ -40,6 +41,7 @@ typedef struct{
 }Stack;
 ```
 When `top = -1`, the stack is empty.
+
 **3. Graph**
 The graph structure contains the number of nodes and the adjacency matrix.
 ```c
