@@ -122,7 +122,7 @@ typedef struct{
 -  **Working:** 
 - It uses nested loops to traverse and print each element of the adjacency matrix in a readable format. 
 
-**5. `void  bfs(Graph* g,  int startnode)`** 
+**4. `void  bfs(Graph* g,  int startnode)`** 
 - This function performs Breadth-First Search traversal starting from the given node. 
 -  **Working:** 
 	- It initializes a boolean array `visited_nodes[]` to keep track of which nodes have already been visited. 
@@ -132,7 +132,7 @@ typedef struct{
 	- For each unvisited adjacent node  (where `a_matrix[curr_node][i]  ==  1` and the node hasn't been visited), it marks the node as visited and enqueues it. 
 	- This approach explores the graph level by level, visiting all neighbors of a node before moving to the next level of nodes.
 
-**6. `void dfs(Graph* g,  int startnode)`** 
+**5. `void dfs(Graph* g,  int startnode)`** 
 - This function performs Depth-First Search traversal starting from the given node. 
 -  **Working:** 
 	- It initializes a boolean array `visited_nodes[]` to track which nodes have been visited. 
