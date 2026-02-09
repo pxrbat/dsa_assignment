@@ -132,7 +132,7 @@ typedef struct{
 	- For each unvisited adjacent node  (where `a_matrix[curr_node][i]  ==  1` and the node hasn't been visited), it marks the node as visited and enqueues it. 
 	- This approach explores the graph level by level, visiting all neighbors of a node before moving to the next level of nodes.
 
-**5. `void dfs(Graph* g,  int startnode)`** 
+**6. `void dfs(Graph* g,  int startnode)`** 
 - This function performs Depth-First Search traversal starting from the given node. 
 -  **Working:** 
 	- It initializes a boolean array `visited_nodes[]` to track which nodes have been visited. 
