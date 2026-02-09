@@ -47,7 +47,7 @@ The program reads the input expression character by character. Whenever an openi
 	* `O(n)`, the entire expression of `n` length has to be traversed and each character has to be processed exactly once.
 	* `push` and `pop` take constant time.
 	
-**2. `int main()`**
+**4. `int main()`**
 * The `main` function is the entry point of the program. 
 * **Working**
 	*  It declares a character array `char expression[MAX]` to store the input expression.
