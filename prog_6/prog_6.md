@@ -73,7 +73,7 @@ For any element at index `i` in the array:
 ## Organization of the main() Method
 This is the entry point of the program that demonstrates heap creation. **Working:** 
 - It prompts the user to enter the number of elements and validates the input. 
-- - It dynamically allocates memory for three arrays using `malloc()`: 
+- It dynamically allocates memory for three arrays using `malloc()`: 
 	-  `data[]` to store the original input 
 	-  `min_heap[]` to build the min heap 
 	-  `max_heap[]` to build the max heap 
